@@ -1,0 +1,25 @@
+{
+  "name": "my-serverless-graphql-app",
+  "version": "1.0.0",
+  "description": "QLunch-Box",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qwinix/my-serverless-graphql-app.git"
+  },
+  "author": "Qwinix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qwinix/my-serverless-graphql-app/issues"
+  },
+  "homepage": "https://github.com/Qwinix/my-serverless-graphql-app#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "apollo-server-lambda": "^2.4.8",
+    "aws-sdk": "^2.422.0",
+    "graphql": "^14.1.1"
+  }
+}
